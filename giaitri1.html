@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
     <title>Document</title>
     <style>
         p{
@@ -13,17 +16,38 @@
         }
     </style>
 </head>
+
+<!-- Body Area -->
 <body>
-    <nav>
-        <div style=" font-size: 25px;  display: flex; justify-content: space-evenly; align-items: center; height: 100px; ">
-            <div><span><a href="./thoisu1.html">Thời sự và xã hội</a> </span></div>
-            <div><span><a href="./kinhdoanh1.html">Kinhdoanh</a></span></div>
-            <div><span><a href="./quocte1.html">Quốc tế</a></span></div>
-            <div><span><a href="./thethao1.html">Thể thao</a></span></div>
-            <div><span><a href="./cudanmang.html">Cư dân mạng</a></span></div>
-            <div><span><a href="./giaitri1.html">Giải trí</a></span></div>
+      <!-- Header Area -->
+      <header>
+        <div style="text-align: center">
+          <img
+            style="width: 300px"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAC6CAMAAAAjzteEAAABBVBMVEX///+eHSHobyT7rhf+1V2IGRyaCRDDh4fscyT8sRbnbCScFxv7qADy5eb+1Frct7eaAALobBymPT/0nSX9x0nTXSn9+fn+9uGwTlL53dDOoaL7pAD+/vf96c7qfUH7tDqSAADlWwD+9Nn+2W2UCSDn0NH58e/+0UX/+uz90JL/6K3pczHxr4/LlJWjLzL5pxj82KLhw8T7sSvWrK731MT8vl/ykh38xXb0wqrsfCHrhlDviB+ZKx3FUiGADRz2y7j76N6vPx/aYyPtlWnAe3z837LXb0X0o0X9zF7+3Hr/7MD8zIP+5J+2amrvoHnPRAD9wi3jpY/4wYinKBS4NxL7vE+wW1xcIWT7AAANLklEQVR4nO2cCXfaSBLHEViykOSYmOVIgMA42IFkbDAOEMbARIyZ3YR4Ly/+/h9l1VWtk26Z1mEy7+k/bxIFLPipXF1Hd0u5XKZMmTJlypQpU6ZMmTJlypQpU2ydXPD1JlytcJ2HqJcE+uV9/YyvP9+F6u/tUP3jPV/fPjbjwz+VFJ2vyutQlYuFMP3tVYg+fI/NftORQtStqPkwPQd/FKJX72N7zlvlYPBHtQw+gz8cPMYW90gPwvujjBg8BJcjz/GrZOGvSVCXLGRdIkf1syC8L7x/CsBDUKfAI3I88sK/grBO4d9/s/5x9CpJeOWKpNn7EjmCzHqlB+A/f/Xo1wD8+txKphs4NDbkeGp44D+c12q1HjX8D+u49iNR+NItOT7uSKV6lRydnPnhX3+69J70ux9+1CIv9sDcxpAc933wEM+P0Fc+kuOPH1KB71zAq/WSJABfAPjcunFY+M4VvHhvp10/fPPNZ1TQbRA+NzYOCl8HA5+WgqES4b9++oWKDV9rh8C/Tx3+hvx1ca2z4S/fceI8hc+tDwh//wCID27eYlv+NQ++OTVC3AZKyTTgT8nxxYn1R/XYk3MDPv/5d6Iv74JJisA3CWJrxIX/hmV8avCgm47Og6eq/sGC700J45AL71Vq8Cd1ruVD4ZvbDfmzfQD4W/eVG3e8BuExv775jQk/NghMq38g+BsINtUrHvzlH7+BmNHGgh+T01sc+I+o87Tgj68hv16eKRz4T/6aMgiP/s6Bf4/1ZIpx/h6840LR2fDvPNwM+ELbjpkHybB04F6VQi2/U8/b8MameUB45QxMX33qMOG/UP2TA28VxweEl0r38OqFJFISu/BGu3lAeF3BmvhtKRK85TgHga9Wq9BJ1U+so+oJFjgu/NeqR1/88KNWr9erbbGTIsfVjb+TyjWbTdpJfSTHPxKF16+JwNi6RA7Prn2Wt+i9CkabEVEBVSTHtC+nPexRUAk34J4ZA+/0QfKzB0fOcTZvk8Fn8MK6ORz8t9jz89WHsNWFFOGTWBmx+u1OiP71S6gmjVD9+wNfr74nsCZlqXrJVTM1JUKe6UBqbfr9Pvm//6ut/xynoCvn4//bh2+0vjNutOmNjSKRUWzYdcvqUUlD/7M/f1akMvox4WnhXSgOZhoEP3U1Dwv80dU1aXjV7uz4arSeBwxRyy5kHXZt3k0HXpJMjdJPKL3RTsbwkzxlN1Njl6QFtb06sG2/jmP4gu00ebSKZqaHTugxX2uzAf3icYwxO6aGL9hOs0iVXZJWqt9xYpi+1bCdhrJXUmaXpDzQa3lqemMbubLcGtRpVBpoUmfvPtIxO7PHbFTT2x5fuKOGN1OHd92e1qPGNmKRQ1d6i2Vq+EWKgcaRvkJ4tVCME+vP7QV3HK0Bp9FZWVLnEHFPYpxg+oM9zosLa0jZyzR3PPowrusMXT/DvnsCg546zowGeyPKkO3ROFmkhvdHydIV6xxn9pip0tudE1hNpq75TT+NAN+yPR4/a/XoB7mqMs45DoNXrndPOWXAd03Vl6lG4kO22fcZPh9ITxHgO6e7J7Dg7VRlB5wIiaqHQd4qDPCXGHBOcfjSA+MMNjxWaNqsENVvaHYt3rE8PgK8jutZe8FLFWp6pBfPslPDm1zzwaggDK8wT+DAm/7CXtRvmiNvKbybn0ThlfoJ62s48Oj1ToUj2lHVDE9loO4YXhx+N0yGwHcX3mhpiBbGQ9trAL6yUxgIwiv1S8aP8y2va97ybCRYIrR9Qf5x59MF4Tus0RoCT4dsPlJpSV2eeg2jFBaDp2uI+8N3H1Wv32yE8hSthrHtZvVPQvC6zhytIfBSVwP6O1qcCcGvKTy3cdXrMFUU8GQOPLsQCofH8oyWCEWhEbuhgRK9hlXp6krJ+i9gUTa88sQzPB9emgO8iiWCWGWJFSWta7hdty7tA69LjKLmWXgJ/YY6vciI7eGCbwGzK3eqZj945Z41PJ6FB7/RqNNvBOBbGCkHGG2583t7wevSDf+LQuChMKZ1sVA7tR55ojx/zmAv+M5xyBeFwM+xlcV+SmTeb+2pKNWFHAdeV9i59Vl4WtXjiBUJN0NPH6KaseA7t+yveB4ekiztSAxxeIxW/CntPeCVun+0Bn4NIfAY6bUJoDT2j5XNTdETbLiG3wM+OFqrgbQWZnkz74abxv6lWRO2w9AOcLWMAV869hv+5kwAXnN7QRH4qQuvVmJYXj/zV5OXD5L/YsLg5ys3Vjb2z1I++EUMyyuBoua0dC0Cr8aAx8rGjA4fbEFOzkTgZQg3NEsNc/vKDx/dbYIzNcclXRhePRB86cn/7klJF4FfLuLDz6PC68He70mRhCzvgW+8NHwnECZvld35ynDL5114gQG7SQBeOfO/CTcN/EXgdd1f1FSvCKeYz3vgBZJUvxAbPtj74f1JkS0v0AcOvfDR4rzuD5OwlVcUXoWCXrSJXRfcDDtfRimJg2HyFHeqCbiNjPCYpETqeS98pAyrl/zvVHV8/sCO5UvuNt8gvIzwBdFOCjZ7OPARLB+cqXkr4TMergPl/Sm8yIGvOPDGVgCebhenhZk4/M68qvt8Df/r8CSOG9aaoAUPhRnU80KLI7hRHzoptRIBnrX8xFf1jAmPVeVEsDrI0XUR6GHVlTh86T6s6d4PXpaxnoceViDM5+j0PM4eaMLw7OUnUfglLqsBvEj/nct9d+dtVFnm0XPglbCZmr3hZdOZtzHaQvA1jJVaeKBnw+vXQk7DhXfDvDEVW0ceueGGHyvZ8NyVBBF4mcLfiY9X74jNW7GSQ8+BF/QaDjwEG5wlFt22AmvIWN2suE6fHrz1lXPNnp8X3qvVM5xpYo3r9Kla3nTab8ElqRzdX4YrmSbPb1K1PLTfOF8m6PJWbQamh0i/4PlNQvA5JrzmrAa2hXdq1ZxIr67mHHpetLk84SqwSAI/ebEDL8tLXJOCKC++UQuacLoCbgrBS6WQ2zQCqyS38CLD8LSYL0YIlESu36jEb1j0+61JeaUE4NnNiOzzmkKETWawLgW7Prh+kx78ksQa3PUhVMvbgimE4mCW58eblOBlGmtwv43ArIdHa2dditT0LPrU4JeQoXCnU4T9cTnakdhd+AvCy85whbom4r0Xa7cjYZs+FXjiNJ4mKspwJYJ9K3Qxds4KOGnBL01cEylGN7x90wWYfsEyfRrwHsOT4Sq6yclVE35vZbs626FPCR4MjzeOiNdkrtau6SvyruOkAA/fklejlzWuYFsr7p/XzF16XT/xPjCgug+8/4TbALzshBrYPy+022NHuAnhjmv6e/89cswJGN8JD/4TngInyE6Mx8og1g12PYz1qp1mg/RKyafn2HdOYBiezvIVxRZzmMJZS6cd5E+DJCHZGa1Y1cS7Qc0SrDMU3EyVIr2MTuOM1uJ5XPhm2/BOGKdIL3ucZhCjMPCq5Zn5m6dIL6PTqE6Ij35/l0eePAuFfTr0yI57s2LmVq/siOP0VGnQIzv2T9j8JeA0RDVw+7K91JAGvew6fF4tRu2fmFp7FgfNNOg97JHmhcNU7bvNuJYCPWXHHf8JOjwKl8Rx0Dr0SeHTT1tSdsgrce5A3qVvM2yfDL3D7m6/TWqw2sLbpmA/vZpPkL4r2z6D7DBYY9WSLNW2hv0AATVvygnRyw47+AyyR7kZ8Bm12iz6WPz2RywxRuKcsOBtCnuqNvLQL+TY+M75S1wEoUuu08SCpE89g9DbN8HMl/HoXXZ6KyCu4KTEbhcKhUkeg44c3fpdz6ng7hpdcO2n91yb3hRzLdQ56mIekd571egy9n3HMVunZ+gh1xbLuDl9ZcpLYX4v+VI2NQyRWBMkmpt21VyD4w/Q8bWKj/7ZC/D/LBmp0DepOFS3CdYEHLVGkGzLKt55ZwbxOVfQ3fmp5bwCEzQ4ryd++2Ik9eg26VkerW/uYFF1Qbx35wsVPEbFKCN832hUDSFfWZ4PYcdy/TnD/GFaWujo7OodjtRx+i5jq0WNP5lpiL8QwF9aw7SC6NqsDBNjo+FLuIyt5ho9fzDBG2ZVjUSePfiXy+V8sdLowwEm8EyMxguMVL96m4YXn7BY7rMMvQDrzbnz7CNNBatbZl8f4IFrrXEBnKcwgZU7Yn/Lf8w5D30+N63wgjbX8rNyEdDbKebUUK3HI8Qv380IEPBr1gWYcyIH2sI2F5WVQ67OrGFKfN1oT2PPikVWcz2l1h+U71TkJxegatpqtaqgVisLV1XVvENettH7L+3sAfzWpgA5F/it4KNRn1aBV8UD282t8DIZDNDVG+11jX+75kupt2437AdXDdCBnEvIu9iWySf0ERLE6uPWz/JcxFp/OzLw/l9Lg/Lk7m42m4HxVetgdjeZDOAtAC+MxsOfhRxkuc+4bV2AcwUW5wDk/tuyt2GMttPhYT2dqWZrPZzCBdhO5BG82t5uhq2XzKVi6tWsK9hsi4bRMHwqjPvDda32U3kLU9Vmk1zEekgePGkxr1u9XvbY0kyZMmXKlOmvov8DSfNPs/icBNgAAAAASUVORK5CYII="
+            alt=""
+          />
         </div>
-    </nav>
+        <!-- Menu Pagination -->
+  
+        <div style="text-align: center">
+          <h2 style="color: red; font-size: 50px">Trang nhất</h2>
+        </div>
+        <nav>
+          <div style=" font-size: 25px;  display: flex; justify-content: space-evenly; align-items: center; height: 100px; ">
+              <div><span><a href="./thoisu1.html">Thời sự và xã hội</a> </span></div>
+              <div><span><a href="./kinhdoanh1.html">Kinhdoanh</a></span></div>
+              <div><span><a href="./quocte1.html">Quốc tế</a></span></div>
+              <div><span><a href="./thethao1.html">Thể thao</a></span></div>
+              <div><span><a href="./cudanmang.html">Cư dân mạng</a></span></div>
+              <div><span><a href="./giaitri1.html">Giải trí</a></span></div>
+          </div>
+      </nav>
+        <!-- End Pagination -->
+      </header>
+      <!-- End Header --> 
+
+      <!-- Body Area -->
     <div style="display: flex; justify-content: center;">
         <main>
             <a href="./giaitri2.html"><img width="500" src="https://sohanews.sohacdn.com/zoom/640_400/160588918557773824/2023/6/21/photo1687320319319-1687320319418585032165.jpg" alt="dad"></a>
@@ -35,10 +59,22 @@
     
         </main>
     </div>
+    <!-- End Body Area  -->
+
+    <!-- Footer --> 
     <footer>
         <div>
           <a href="./index.htm">Quay lại trang chủ</a>
         </div>
+        <!-- Information -->
+        <div>
+          <p>
+            THÔNG TIN LIÊN HÊ: <br />
+            STD:123456789 <br />GMAIL:ASDF@GMAIL.COM
+          </p>
+        </div>
+        <!-- End Information -->      
       </footer>
+      <!-- End Footer -->
 </body>
 </html>
